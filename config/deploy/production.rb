@@ -7,7 +7,11 @@
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
+set :rails_env, 'production'
+set :stage, :production
+set :branch, :master
 
+server '35.159.10.16', user: "ubuntu", roles: %w{web app db background scheduler}
 
 # role-based syntax
 # ==================

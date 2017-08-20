@@ -1,8 +1,10 @@
 # config valid only for current version of Capistrano
 lock '3.4.1'
 
+
 set :application, 'trial_app'
 set :repo_url, 'git@github.com:vinay-mittal/trial_app.git'
+set :user, "ubuntu"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

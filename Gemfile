@@ -30,7 +30,8 @@ gem 'devise'
 gem 'rails_admin'
 gem 'capistrano'
 gem 'capistrano-rails'
-
+gem 'capistrano-rvm'
+gem 'capistrano-passenger'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
